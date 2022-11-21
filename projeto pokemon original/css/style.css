@@ -1,0 +1,92 @@
+@import url('https://fonts.google.com/specimen/Abyssinica+SIL');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'oxanium', cursive;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #0fc956, #fff);
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon {
+    position: absolute;
+    bottom: 53%;
+    left: 51%;
+    transform: translate(-63%, 10%);
+    height: 15%;
+
+}
+
+.dadosPokemon {
+    position: absolute;
+    font-weight: 550;
+    font-size: clamp(8px, 5vw, 25px);
+    color: #333131;
+    top: 54%;
+    left: 23.5%;
+}
+
+.nomePokemon {
+    color: #333131;
+    text-transform: uppercase;
+}
+
+.form {
+    position: absolute;
+    width: 65.5%;
+    top: 63%;
+    left: 13%;
+}
+
+.barraPesquisa {
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: clamp(8px, 5vw, 20px);
+    box-shadow: -3px 4px 0 rgb(112, 110, 110), -5px 7px 0 #333;
+}
+
+.botoes {
+    position: absolute;
+    width: 65.5%;
+    top: 78%;
+    left: 13%;
+}
+
+.botao {
+    width: 45%;
+    padding: 3%;
+    border-radius: 5px;
+    border: 2px solid #000;
+    font-size: clamp(8px, 5vw, 20px);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    ;
+}
+
+.botao:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
